@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F2;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #37ED81;
+    --bs-btn-border-color: #37ED81;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #33e078;
+    --bs-btn-hover-border-color: #33e078;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #29b963;
+    --bs-btn-active-border-color: #29b963;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #5eed97;
+    --bs-btn-disabled-border-color: #5eed97;
+    border-radius: 14px;
+    
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #37ED81;
+    --bs-btn-border-color: #37ED81;
+    --bs-btn-hover-color: #fff;      
+    --bs-btn-hover-bg: #37ED81;
+    --bs-btn-hover-border-color: #37ED81;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #29b963;
+    --bs-btn-active-border-color: #29b963;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #5eed97;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #5eed97;
+    --bs-gradient: none;
+    border-radius: 14px;
+}
+.btn-outline-secondary {
+    --bs-btn-color: #031F34;
+    --bs-btn-border-color: #37ED81;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #031F34;
+    --bs-btn-hover-border-color: #031F34;
+    --bs-btn-focus-shadow-rgb: 108,117,125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #031F34;
+    --bs-btn-active-border-color: #031F34;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #031F34;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #031F34;
+    --bs-gradient: none;
+    width: 100%;
+}
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight:400 ;
+    --bs-nav-link-color: #031F34;
+    --bs-nac-link-active-color:#37ED81;
+    --bs-nav-link-hover-color: #37ED81;
+    --bs-nav-link-disabled-color: #031f3462;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.slide{
+    background-color: #031F34;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.slide h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    color: #F0F0F2;
+  }
+  .slide p{
+    color: #F0F0F2;
+  }
+  .block {
+    padding: 50px 0;
+}
+.centered-text {
+    text-align: center;
+    height: 100px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.small-text{
+    font-size: 18px;
+    color: #37ED81;
+    font-weight: 400;
+
+}
+.centered-text h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #031F34;
+
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: 0;
+    --bs-card-border-color: none;
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    margin-bottom: 10px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #031F34;
+}
+.link-allcours{
+    color: #33e078;
+    text-decoration: none;
+
+}
+.card-area {
+    background-color: #F9F9F9;
+}
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+.card-discription{
+    color: #818181;
+    font-weight: 300;
+    font-size: 14px;
+   
+
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 10px 15px 8px 15px;
+    color: var(--bs-card-color);
+}
+
+.card-cours {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.link-cours {
+    text-decoration: none;
+    color: #818181;
+
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-rating {
+    color: #04BF68;
+    /* couleur jaune pour les étoiles */
+}
+
+.card-img,
+.card-img-top {
+    padding: 10px;
+    border-radius: 16px;
+    
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #818181;
+}
+p{
+    margin-bottom: 10px;
+}
+
+h4.card-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #01261C;
+
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+    background-color: #fff;
+    
+    border-color: #EAF2F1;
+
+}
+
+/*footer*/
+
+.footer{
+    background-color: #031F34;
+    padding-top: 60px ;
+    padding-bottom: 20px;
+    margin-top: auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0.5rem;
+}
+.body-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+
+}
+.footer-title {
+    color: #EAF2F1;
+
+}
+.info-icone {
+    padding-right: 8px;
+}
+.footer .footer-link ul a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #EAF2F1;
+    margin-top: 16px;
+    font-weight: 400;
+}
+.footer .icon {
+    margin-right: 40px;
+}
+
+
+.text1{
+    color: #EAF2F1;
+}
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.text-right .text2 {
+    text-decoration: none;
+    color: #EAF2F1;
+    margin-right: 10px;
+}
+.footer .copyright {
+    font-size: 14px;
+    color:#EAF2F1 ;
+}
